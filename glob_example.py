@@ -1,3 +1,8 @@
+'''
+DOCS : https://docs.python.org/3/library/glob.html
+
+'''
+
 import glob
 
 

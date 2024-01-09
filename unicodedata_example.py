@@ -1,4 +1,6 @@
 '''
+DOCS : https://docs.python.org/3/library/unicodedata.html
+
 General category of character can be find in wiki
 https://en.wikipedia.org/wiki/Unicode_character_property
 
