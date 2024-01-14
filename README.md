@@ -1,2 +1,5 @@
-# Python_Cookbook
-Frequently used specific python library
+# Python Cookbook
+
+[Python Standard Library DOCS](https://docs.python.org/3/library/index.html)
+
+- Frequently used libaray & usage
