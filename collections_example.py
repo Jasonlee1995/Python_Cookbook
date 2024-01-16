@@ -12,6 +12,13 @@ def make_counter(lst):
 def get_most_common(counter, num):
     return counter.most_common(num)
 
+def mathematical_operation(counterA, counterB, operation):
+    if operation == 'add':          return counterA + counterB
+    if operation == 'subtract':     return counterA - counterB
+    if operation == 'intersection': return counterA & counterB
+    if operation == 'union':        return counterA | counterB
+    raise ValueError('Unknown Operation')
+
 
 if __name__ == '__main__':
     abc_lst = ['a', 'a', 'a', 'b', 'c', 'c']
@@ -22,7 +29,7 @@ if __name__ == '__main__':
 
     print(abc_cnt, get_most_common(abc_cnt, 1))
     print(ab_cnt, get_most_common(ab_cnt, 1))
-    print(abc_cnt - ab_cnt)
+    print(mathematical_operation(abc_cnt, ab_cnt, 'subtract'))
 
     '''print result
     Counter({'a': 3, 'c': 2, 'b': 1}) [('a', 3)]
