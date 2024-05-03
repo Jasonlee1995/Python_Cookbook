@@ -8,8 +8,8 @@ import difflib
 
 def match_info(hyp, ref):
     '''
-    '- ' : line unique to sequence 1
-    '+ ' : line unique to sequence 2
+    '- ' : line unique to hyp
+    '+ ' : line unique to ref
     '  ' : line common to both sequences
     '? ' : line not present in either input sequence
 
